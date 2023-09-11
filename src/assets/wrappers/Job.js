@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.article`
   background: var(--white);
@@ -71,6 +71,25 @@ const Wrapper = styled.article`
     }
   }
 
+  .job-info {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    font-size: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    svg {
+      color: var(--grey-400);
+    }
+  }
+  .text {
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+  }
   .status {
     border-radius: var(--borderRadius);
     text-transform: capitalize;
